@@ -1,0 +1,75 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+
+
+ext {
+    bintrayRepo = 'maven' // Name of the Bintray repo you created
+    bintrayName = 'com.code95.rtlviewpager' // Bintray package name
+
+    publishedGroupId = 'com.code95.rtlviewpager' // Group ID of the SDK which will be added in implementation line of gradle
+    artifact = 'viewpager' // Artifact ID of the SDK which will be added in implementation line of gradle
+    libraryVersion = '0.0.1' // Version of the library you created in Bintray
+
+    libraryName = 'BiDirectionViewpager' // It is generally the module name
+    libraryDescription = 'A ViewPager that supports RTL natively.' // Small description of the library
+
+    siteUrl = 'https://github.com/abdallah159/BiDirectionViewpager'
+    gitUrl = 'https://github.com/abdallah159/BiDirectionViewpager'
+
+    developerId = 'abdallah-mohamed'
+    developerName = 'Code95'
+    developerEmail = 'abdallah.mohammed@code95.info'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+
+    //Bintray Credentials
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+    bintrayUsername = properties.getProperty('BINTRAY_USERNAME')
+    bintrayUserOrg = properties.getProperty('BINTRAY_ORG')
+    bintrayApiKey = properties.getProperty('BINTRAY_API_KEY')
+}
+android {
+    compileSdkVersion 28
+
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}
+
+apply from: 'bintray.script'
+

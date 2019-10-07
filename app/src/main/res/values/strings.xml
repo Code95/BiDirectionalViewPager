@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RTL Viewpager</string>
+
+    <string name="news">News</string>
+    <string name="events">Events</string>
+    <string name="gallery">Gallery</string>
+
+    <string name="language">عربي</string>
+    <string name="local">ar</string>
+
+</resources>

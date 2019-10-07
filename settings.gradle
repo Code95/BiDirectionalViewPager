@@ -1,0 +1,2 @@
+include ':app', ':rtlviewpager'
+rootProject.name='RTL Sample Project'

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RTL Viewpager</string>
+
+    <string name="news">الاخبار</string>
+    <string name="events">الاحداث</string>
+    <string name="gallery">المعرض</string>
+    <string name="language">English</string>
+
+    <string name="local">en</string>
+
+</resources>
