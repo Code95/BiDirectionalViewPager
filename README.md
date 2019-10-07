@@ -7,7 +7,7 @@ A ``ViewPager Android library`` written in ``kotlin`` that supports right to lef
 The library is published on ``jCenter`` you need to add the following dependency to your ```build.gradle ``` file.
 ```
 dependencies {
-    implementation 'com.code95.rtlviewpager:viewpager:0.0.1'
+    implementation 'com.code95.rtlviewpager:rtlviewpager:0.0.1'
 }
 ```
 
