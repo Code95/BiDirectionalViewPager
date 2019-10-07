@@ -8,21 +8,21 @@ apply plugin: 'com.jfrog.bintray'
 
 
 ext {
-    bintrayRepo = 'maven' // Name of the Bintray repo you created
-    bintrayName = 'com.code95.rtlviewpager' // Bintray package name
+    bintrayRepo = 'BiViewPager' // Name of the Bintray repo you created
+    bintrayName = 'com.code95.rtlsampleproject:rtlviewpager' // Bintray package name
 
     publishedGroupId = 'com.code95.rtlviewpager' // Group ID of the SDK which will be added in implementation line of gradle
-    artifact = 'viewpager' // Artifact ID of the SDK which will be added in implementation line of gradle
+    artifact = 'rtlviewpager' // Artifact ID of the SDK which will be added in implementation line of gradle
     libraryVersion = '0.0.1' // Version of the library you created in Bintray
 
     libraryName = 'BiDirectionViewpager' // It is generally the module name
     libraryDescription = 'A ViewPager that supports RTL natively.' // Small description of the library
 
-    siteUrl = 'https://github.com/abdallah159/BiDirectionViewpager'
-    gitUrl = 'https://github.com/abdallah159/BiDirectionViewpager'
+    siteUrl = 'https://github.com/Code95/BiDirectionalViewPager'
+    gitUrl = 'https://github.com/Code95/BiDirectionalViewPager'
 
     developerId = 'abdallah-mohamed'
-    developerName = 'Code95'
+    developerName = ''
     developerEmail = 'abdallah.mohammed@code95.info'
 
     licenseName = 'The Apache Software License, Version 2.0'
