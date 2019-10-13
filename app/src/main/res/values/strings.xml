@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BiDirectionalViewPagerSample</string>
+    <string name="call_now">Call now</string>
+    <string name="frag_1">Fragment 1</string>
+    <string name="frag_2">Fragment 2</string>
+    <string name="frag_3">Fragment 3</string>
+    <string name="nav">Navigate</string>
+</resources>

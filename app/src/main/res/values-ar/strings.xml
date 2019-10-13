@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BiDirectionalViewPagerSample</string>
+    <string name="call_now">إتصل الآن</string>
+    <string name="frag_1">القطعة الأولي</string>
+    <string name="frag_2">القطعة الثانية</string>
+    <string name="frag_3">القطعة الثالثة</string>
+    <string name="nav">إنتقل</string>
+</resources>
