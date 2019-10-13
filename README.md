@@ -6,6 +6,13 @@ A ``ViewPager Android library`` written in ``kotlin`` that supports right to lef
 ### How to import in Your Android Studio Project
 The library is published on ``jCenter`` you need to add the following dependency to your ```build.gradle ``` file.
 ```
+
+repositories {
+	maven {
+		url  "https://dl.bintray.com/abdallah-mohamed/maven"
+	}
+}
+
 dependencies {
     implementation 'com.code95.bidirectionalviewpager:bidirectionalviewpager:0.0.1'
 }
