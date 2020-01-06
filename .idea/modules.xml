@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BiDirectionalViewPager.iml" filepath="$PROJECT_DIR$/BiDirectionalViewPager.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bidirectionalviewpager-develop.iml" filepath="$PROJECT_DIR$/bidirectionalviewpager-develop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bidirectionalviewpager/bidirectionalviewpager-develop-bidirectionalviewpager.iml" filepath="$PROJECT_DIR$/bidirectionalviewpager/bidirectionalviewpager-develop-bidirectionalviewpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bidirectionalviewpager/bidirectionalviewpager.iml" filepath="$PROJECT_DIR$/bidirectionalviewpager/bidirectionalviewpager.iml" />
     </modules>
   </component>
 </project>

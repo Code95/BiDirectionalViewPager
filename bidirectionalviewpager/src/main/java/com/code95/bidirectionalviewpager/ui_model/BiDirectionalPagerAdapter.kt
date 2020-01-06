@@ -95,6 +95,17 @@ open class BiDirectionalPagerAdapter(
     }
 
     /**
+     * removeTabs method used to remove tabs from adapter
+     * then call getViewPagerItemPos method for data changed notifying
+     *
+     * @param position Integer value to position of tab
+     */
+    fun removeTabs() {
+        items.clear()
+        getViewPagerItemPos()
+    }
+
+    /**
      * getViewPagerItemPos method used to change current item and notifyDataSetChanged
      * based on check LTR and RTL flag
      */
@@ -166,7 +177,7 @@ open class BiDirectionalPagerAdapter(
         if (isRtl) {
             pager.currentItem = items.size - 1
         } else {
-            pager.currentItem = 0;
+            pager.currentItem = 0
         }
         /**
          * set onNavigationItemSelected to check the selected item and

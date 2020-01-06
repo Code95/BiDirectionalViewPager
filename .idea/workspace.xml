@@ -151,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="1920" />
     <option name="height" value="988" />
@@ -354,7 +354,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/code95/rtlsampleproject/ui/MainActivity.kt" />
-    <entry file="jar://$USER_HOME$/Desktop/Projects/android-sdk-macosx/platforms/android-29/android.jar!/android/view/View.class">
+    <entry file="jar://$PROJECT_DIR$/../../Projects/android-sdk-macosx/platforms/android-29/android.jar!/android/view/View.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3178">
           <caret line="906" column="30" selection-start-line="906" selection-start-column="30" selection-end-line="906" selection-end-column="30" />
